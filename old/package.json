@@ -1,0 +1,24 @@
+{
+  "name": "tedxyouthdpse",
+  "version": "1.0.0",
+  "description": "Website for TEDx DPS Bangalore East. Maintained by @rithvikvibhu @lunaroyster1 @thel3l",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tedxdpse/TEDx-DPSE.git"
+  },
+  "author": "thel3l, rithvikvibhu, lunaroyster1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tedxdpse/TEDx-DPSE/issues"
+  },
+  "homepage": "https://gitlab.com/tedxdpse/TEDx-DPSE#README",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-generator": "^4.13.4",
+    "mongoose": "^4.6.5"
+  }
+}

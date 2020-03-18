@@ -1,0 +1,133 @@
+/* Fonts */
+@font-face {
+  font-family: 'WhitneyHTF-Medium'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../fonts/WhitneyHTF-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: 'WhitneyHTF-Light'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../fonts/WhitneyHTF-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'WhitneyHTF-Black'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../fonts/WhitneyHTF-Black.otf") format("opentype");
+}
+
+
+.center {
+  text-align: center;
+}
+.center .clock {
+  display: inline-block;
+  width: auto;
+}
+
+.tedred {
+    background-color: #e62b1e;
+}
+/* All pages (Common styles) */
+.navbar-overflow-btn {
+    display: none !important;
+    padding: 8px;
+}
+a, p, h1, h2, h4, h5, h6 {
+    font-family: "WhitneyHTF-Light", Georgia, serif;
+}
+p {
+    line-height: 1.7;
+    letter-spacing: 1.1px
+}
+h3 {
+    font-family: "WhitneyHTF-Medium", Georgia, serif;
+    color: #e62b1e;
+}
+#registrations > h3{
+    font-family: "WhitneyHTF-Black", Georgia, serif;
+}
+
+blockquote {
+    font-size: 2em;
+    font-family: sans-serif;
+    border-left: 5px solid #e62b1e;
+}
+
+img.responsive-img {
+    height: initial;
+    width: 13em;
+    height: 13em;
+    /* background-size: initial; */
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    object-fit: cover;
+}
+
+/* Home page specific */
+#logo {
+    width: 100%;
+}
+
+
+/* contact page specific */
+#contact {
+    margin-top: 25%;
+}
+#map {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e62b1e;
+}
+
+::-webkit-scrollbar {
+    background-color: #000000;
+    width: 5px;
+}
+
+
+    
+
+/* For mobiles */
+@media only screen and (max-width: 768px) {
+    .nav-wrapper {
+        display: none;
+    }
+    .navbar-overflow-btn {
+        display: block !important;
+    }
+
+    /* Contact page specific */
+    #contact {
+        margin-top: 100%;
+    }
+    .clock {
+        zoom: 0.4;
+    }
+    .flip-clock-label {
+        font-size:200%;
+        text-align: center;
+    }
+    
+    .footer-copyright {
+        height: 65px !important;
+    }
+    
+}
+
+footer.page-footer{
+    padding-top: 0px;
+}
+
+#sponsors .row{
+    
+    margin-bottom: 5%;
+}
+.contactdetails a, .contactdetails a:active, .contactdetails a:link, .contactdetails a:visited {
+    color: rgba(0, 206, 255, 0.81);
+    
+}
